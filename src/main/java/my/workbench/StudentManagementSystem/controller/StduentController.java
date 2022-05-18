@@ -20,7 +20,7 @@ public class StduentController {
 	
 	//creating handler method to handle list students and return mode and view
 	
-	@GetMapping("/students")
+	@GetMapping("/students") //It will map to the student page
 	public String listStudents(Model model) {
 		//model is just like HashMap container, it will take two arguments: key and values
 		model.addAttribute("students", studentService.getAllStudents()); 
