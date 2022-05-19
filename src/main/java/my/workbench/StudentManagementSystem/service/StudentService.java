@@ -5,6 +5,10 @@ import java.util.List;
 import my.workbench.StudentManagementSystem.entity.Student;
 
 public interface StudentService {
-	List<Student> getAllStudents(); //calling the getAllStudents class over here
+	//calling the getAllStudents class over here
+	
+	List<Student> getAllStudents(); 
 
+	//class	  //object
+	Student saveStudent(Student student);
 }
